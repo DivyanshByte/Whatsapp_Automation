@@ -1,6 +1,7 @@
 from selenium import webdriver
 import sys
-driver = webdriver.Edge(executable_path = 'H:\\edgedriver_win64\\Edge.exe')
+// Enter Your Own Browser Name Here and driver path below
+driver = webdriver.Chrome(executable_path = 'Your_driver_path')
 driver.get('https://web.whatsapp.com/')
 input('Enter anything after scanning QR code: ')
 while(True):
